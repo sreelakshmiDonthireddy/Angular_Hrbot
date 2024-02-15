@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+// @import "../src/assets/login.scss";
+// /* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+// @import "../src/assets/login.scss";
+
+.carousel-indicators .active {
+  z-index: 1;
+  opacity: 1;
+  background-color:  #1C2F72 !important;
+  border-radius: 50%;
+  width: 10px !important;
+  height: 10px !important;
+ 
+}
+
+.carousel-indicators button {
+  background-color: #080707 !important;
+  border-radius: 50%;
+  width: 10px !important;
+  height: 10px !important;
+}
+.carousel-control-prev{
+  display: none;
+}
+
+.carousel-control-next{
+  display: none;
+}
+
+.carousel-indicators{
+margin-bottom: 0 !important;
+}
+
+.dialog-btn-group{
+  display: flex;
+  float: right;
+  padding: 20px;
+}
+.dropdown-item{
+  cursor: pointer;
+}
+.nav-link{
+  cursor: default;
+}
+.app-logo{
+  height: 50px;
+}
